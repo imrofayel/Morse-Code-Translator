@@ -25,17 +25,17 @@ class _DecodeState extends State<Decode> {
 
           borderRadius: BorderRadius.circular(12),
       
-          color: Colors.grey.shade100,
+          color: Colors.grey.shade100.withOpacity(0.5),
 
           border: Border(
 
-            right: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.4)),
+            right: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.5)),
 
-            bottom: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.4)),
+            bottom: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.5)),
 
-            top: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.4)),
+            top: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.5)),
 
-            left: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.4)),
+            left: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.5)),
           ),
       
         ),
@@ -54,7 +54,7 @@ class _DecodeState extends State<Decode> {
           
               textFieldCode(code),
           
-              Divider(thickness: 2, color: Colors.grey.shade300.withOpacity(0.4)),
+              Divider(thickness: 2, color: Colors.grey.shade300.withOpacity(0.5)),
           
               textField(text),
 

@@ -22,7 +22,7 @@ class Themes{
 
     appBarTheme: AppBarTheme(
 
-      backgroundColor: Colors.grey.shade100,
+      backgroundColor: Colors.grey.shade50,
 
       toolbarHeight: 70,
 

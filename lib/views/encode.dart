@@ -23,19 +23,19 @@ class _EncodeState extends State<Encode> {
       
         decoration: BoxDecoration(
       
-          color: Colors.grey.shade100,
+          color: Colors.grey.shade100.withOpacity(0.5),
 
           borderRadius: BorderRadius.circular(12),
 
           border: Border(
 
-            right: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.4)),
+            right: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.5)),
 
-            bottom: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.4)),
+            bottom: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.5)),
 
-            top: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.4)),
+            top: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.5)),
 
-            left: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.4)),
+            left: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.5)),
           ),
       
         ),
@@ -54,7 +54,7 @@ class _EncodeState extends State<Encode> {
           
               textField(text),
           
-              Divider(thickness: 2, color: Colors.grey.shade300.withOpacity(0.4)),
+              Divider(thickness: 2, color: Colors.grey.shade300.withOpacity(0.5)),
           
               textFieldCode(code),
 

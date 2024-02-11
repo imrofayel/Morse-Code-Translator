@@ -19,7 +19,7 @@ class _DecodeState extends State<Home> {
       
       child: AnnotatedRegion(
 
-        value: SystemUiOverlayStyle(statusBarIconBrightness: Brightness.dark, statusBarColor: Colors.grey.shade100, systemNavigationBarColor: Colors.grey.shade100, systemNavigationBarIconBrightness: Brightness.dark, systemNavigationBarDividerColor: Colors.grey.shade100),
+        value: SystemUiOverlayStyle(statusBarIconBrightness: Brightness.dark, statusBarColor: Colors.grey.shade50, systemNavigationBarColor: Colors.grey.shade50, systemNavigationBarIconBrightness: Brightness.dark, systemNavigationBarDividerColor: Colors.grey.shade50),
 
         child: DefaultTabController(
 
@@ -27,7 +27,7 @@ class _DecodeState extends State<Home> {
 
           child: Scaffold(
           
-            backgroundColor: Colors.grey.shade100,
+            backgroundColor: Colors.grey.shade50,
           
             appBar: AppBar(
             
