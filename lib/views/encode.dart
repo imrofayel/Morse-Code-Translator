@@ -27,16 +27,7 @@ class _EncodeState extends State<Encode> {
 
           borderRadius: BorderRadius.circular(12),
 
-          border: Border(
-
-            right: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.5)),
-
-            bottom: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.5)),
-
-            top: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.5)),
-
-            left: BorderSide(width: 1.5, color: Colors.grey.shade300.withOpacity(0.5)),
-          ),
+          border: Border.all(width: 1.5, color: Colors.grey.shade300.withOpacity(0.5)),
       
         ),
 
