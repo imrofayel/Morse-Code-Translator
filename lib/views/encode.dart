@@ -91,7 +91,7 @@ class _EncodeState extends State<Encode> {
       
         decoration: const InputDecoration(
       
-          contentPadding: EdgeInsets.all(10),
+          contentPadding: EdgeInsets.all(20),
       
           border: InputBorder.none,
       
